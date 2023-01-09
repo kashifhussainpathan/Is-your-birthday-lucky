@@ -3,16 +3,18 @@
 :root {
     --color-primary: hsl(215, 80%, 60%);
     --color-secondary: hsl(215, 80%, 65%);
+    --color-bg: hsl(215, 80%, 10%);
 }
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: var(--color-bg);
 }
 
 main {
     max-width: 500px;
     width: 80%;
-    margin: 0 auto;
+    margin: auto auto;
 }
 
 label {
@@ -21,12 +23,15 @@ label {
     margin: 1em 0em;
     font-weight: bold;
     letter-spacing: 0.10em;
+    color: white;
+    font-size: large;
 }
 
 h1 {
     text-align: center;
     color: var(--color-primary);
     letter-spacing: 0.10em;
+    margin-top: 10rem;
 }
 
 #dob {
@@ -58,15 +63,16 @@ h1 {
 }
 
 input {
-    max-width: 200px;
-    width: 200px;
+    max-width: 250px;
+    width: 250px;
     padding: 0.5em;
     padding-left: 1em;
     border-radius: 10em;
-    text-transform: uppercase;
     border: 1px solid var(--color-primary);
     margin: 0em auto;
     letter-spacing: 0.10em;
+    font-size: large;
+    
 }
 .output {
     text-align: center;

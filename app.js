@@ -7,10 +7,10 @@ btn.addEventListener("click", checkIsBirthdayLucky);
 
 function compareValues(sum,luckyNumber){
   if (sum % luckyNumber === 0) {
-    output.innerText = "Yay, Your birthday is lucky 🎉"
+    output.innerText = `Yay, ${luckyNumber} is Lucky Number 🎉`
     output.style.backgroundColor="green";
   } else{
-    output.innerText = "Your birthday is not lucky 😢"
+    output.innerText = `${luckyNumber} is not lucky Number 😕`
     output.style.backgroundColor="grey";
   } 
 };
