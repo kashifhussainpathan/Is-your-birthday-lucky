@@ -44,23 +44,33 @@ h1 {
     margin: 0 auto;
 }
 
-.btn {
-    display: block;
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn,
+.reset-btn {
+    display: inline-block;
     padding: 0.6em 1em;
     border-radius: 10em;
     border: 1px solid var(--color-primary);
     background-color: var(--color-primary);
     color: white;
-    margin: 2em auto;
+    margin: 3em 1em;
     cursor: pointer;
     font-weight: 500;
     letter-spacing: 0.10em;
+
 }
 
-.btn:hover {
+.btn:hover,
+.reset-btn:hover {
     background-color: var(--color-secondary);
     color: white;
 }
+
 
 input {
     max-width: 250px;
@@ -72,11 +82,13 @@ input {
     margin: 0em auto;
     letter-spacing: 0.10em;
     font-size: large;
-    
+
 }
+
 .output {
     text-align: center;
     font-size: larger;
+    font-weight: 700;
     color: white;
     width: 80%;
     margin: 0em auto;
