@@ -14,6 +14,7 @@ A website which checks whether your birthday is lucky or not by calculating if s
 * Enter your birth date
 * Enter your lucky number & click on **Button**
 * Output will be shown below it
+* You can also click on Reset button & reset your birthdate & lucky number
 
 
 ## Programming Language:
